@@ -15,8 +15,14 @@ export const ko = {
       heading_3: {
         title: "제목3",
         subtext: "섹션 제목(소)",
-        aliases: ["h3", "제목3", "subheading"],
+        aliases: ["h3", "제목3", "소제목" , "subheading"],
         group: "제목",
+      },
+      paragraph: {
+        title: "본문",
+        subtext: "일반 텍스트",
+        aliases: ["p", "paragraph", "본문", "텍스트", "일반 텍스트"],
+        group: "기본 블록",
       },
       numbered_list: {
         title: "번호 매기기 목록",
@@ -29,18 +35,6 @@ export const ko = {
         subtext: "간단한 글머리 기호를 추가합니다.",
         aliases: ["ul", "li", "목록", "글머리 기호 목록", "글머리 목록"],
         group: "기본 블록",
-      },
-      paragraph: {
-        title: "본문",
-        subtext: "일반 텍스트",
-        aliases: ["p", "paragraph", "본문"],
-        group: "기본 블록",
-      },
-      table: {
-        title: "표",
-        subtext: "간단한 표를 추가합니다.",
-        aliases: ["표"],
-        group: "고급",
       },
       image: {
         title: "이미지",
@@ -56,8 +50,16 @@ export const ko = {
           "url",
           "drive",
           "dropbox",
+          "사진",
+          "그림"
         ],
-        group: "미디어",
+        group: "추가",
+      },
+      table: {
+        title: "표",
+        subtext: "간단한 표를 추가합니다.",
+        aliases: ["표", "테이블", 'table'],
+        group: "추가",
       },
     },
     placeholders: {
@@ -100,7 +102,7 @@ export const ko = {
         red: "빨간색",
         orange: "주황색",
         yellow: "노란색",
-        green: "녹색",
+        green: "초록색",
         blue: "파란색",
         purple: "보라색",
         pink: "분홍색",
